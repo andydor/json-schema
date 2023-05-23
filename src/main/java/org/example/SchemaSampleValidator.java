@@ -27,10 +27,9 @@ public class SchemaSampleValidator {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        return new HashMap<>();
     }
 
-    public static void validate() throws IOException {
+    public static void validate() throws IOException, ParseException {
         String sampleFileContents = readFile(inputSampleFilename);
         JSONObject jsonInput = new JSONObject(sampleFileContents);
 

@@ -10,7 +10,8 @@
     "name": {
       "title": "Object name",
       "description": "Description of object name",
-      "type": "string"
+      "type": "string",
+      "maxLength": 5
     },
     "property1": {
       "title": "Property 1",
@@ -20,8 +21,8 @@
     "property2": {
       "title": "Property 2",
       "description": "Description of property 2",
-      "maxLength": 5,
-      "type": "string"
+      "type": "string",
+      "maxLength": 5
     }
   }
 }
